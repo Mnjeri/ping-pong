@@ -17,17 +17,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
 //user interface
 $(document).ready(function(){
   $("form#pingPong").submit(function(event){
@@ -48,8 +37,9 @@ $(document).ready(function(){
  	}
  	else{
  		$("#results").append('<li>' + i + '</li>');
- 	var result=pingPong(numberinput);
+ 	
  	}
+
  }
 
 
