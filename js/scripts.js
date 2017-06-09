@@ -1,12 +1,11 @@
-// //Business interface
-// var number;
-// for(var i =0; i <= number i++){
-// 	if(i % 5 === 0){
-// 	else if(i % 3 === 0){
-	
-// 	else if( i % 5 ===0){
+ //Business interface
 
-// }
+ 
+// var number;
+// for(var i =0; i <= number i++) {
+// 	if(i % 5 === 0){ 	else if(i % 3 === 0){ 	else if( i % 5 ===0){
+
+//  }
 //    }
 // }
 
@@ -33,6 +32,9 @@
 $(document).ready(function(){
   $("form#pingPong").submit(function(event){
   event.preventDefault();
+    $("#results").text(" ");
+
+
  var number = $("input#number").val();
  for(var i = 1; i<= number; i++){
  	if(i % 15===0){
@@ -46,6 +48,7 @@ $(document).ready(function(){
  	}
  	else{
  		$("#results").append('<li>' + i + '</li>');
+ 	var result=pingPong(numberinput);
  	}
  }
 
