@@ -2,6 +2,7 @@
 	background-image: url("../images/1.jpg");
 	background-color: yellow;
 	height: 500px;
+	background-repeat:repeat;
 	}
 h1{
 	text-align: center;
@@ -9,7 +10,7 @@ h1{
 }
 #sun{
 	font-style: inherit;
-	font-size: 1.5em;
+	font-size: 2.5em;
 }
 #moon{
 	font-style: italic;
@@ -23,4 +24,21 @@ h1{
 #milo{
 	color: yellow;
 	font-size:2em;
+	font-style: italic;
+}
+#flo{
+	font-size: 1.5em;
+	color:green;
+}
+#bobo{
+	font-size: 2em;
+	color: yellow;
+	font-style: italic;
+}
+#gk{
+	font-size: 1.5em;
+	color: green;
+}
+#results{
+	display: none;
 }
